@@ -631,6 +631,10 @@ img.img-fulid.logo-img {
     height: 80px;
     width: 80px;
   }
+
+  .jetski-vector{
+    height: 60px;
+  }
 }
 
 
@@ -678,6 +682,17 @@ img.img-fulid.logo-img {
 .item-boxes:hover .icon i {
   color: #fff;
 }
+
+
+#services .container {
+  margin-top: -5%;
+}
+
+.craft-vector {
+  height: 90px;
+}
+
+
 
 /* ==========================================================================
   6. Features Section Style
