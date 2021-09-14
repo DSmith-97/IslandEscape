@@ -168,12 +168,14 @@
   /*
      vector image hovers
      ========================================================================== */
-$(".craft-vector").on("mouseover", function() {
-  $(this).attr('src', './img/vectors/jet-ski_bw.png');
+$(".craft-vector").on("mouseover", function(event) {
+  var targetClass = $(this).attr('class').split(' ')[2];
+  $(this).attr('src', './img/vectors/' + targetClass + '_bw.png');
 })
 
 $(".craft-vector").on("mouseout", function() {
-  $(this).attr('src', './img/vectors/jet-ski.png');
+  var targetClass = $(this).attr('class').split(' ')[2];
+  $(this).attr('src', './img/vectors/' + targetClass +  '.png');
 })
 
 
