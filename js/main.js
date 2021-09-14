@@ -168,15 +168,15 @@
   /*
      vector image hovers
      ========================================================================== */
-$(".craft-vector").on("mouseover", function(event) {
-  var targetClass = $(this).attr('class').split(' ')[2];
-  $(this).attr('src', './img/vectors/' + targetClass + '_bw.png');
-})
-
-$(".craft-vector").on("mouseout", function() {
-  var targetClass = $(this).attr('class').split(' ')[2];
-  $(this).attr('src', './img/vectors/' + targetClass +  '.png');
-})
+// $(".craft-vector").on("mouseover", function(event) {
+//   var targetClass = $(this).attr('class').split(' ')[2];
+//   $(this).attr('src', './img/vectors/' + targetClass + '_bw.png');
+// })
+//
+// $(".craft-vector").on("mouseout", function() {
+//   var targetClass = $(this).attr('class').split(' ')[2];
+//   $(this).attr('src', './img/vectors/' + targetClass +  '.png');
+// })
 
 
 
