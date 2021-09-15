@@ -166,18 +166,18 @@
 
 
   /*
-     vector image hovers
+     features section background image swap
      ========================================================================== */
-// $(".craft-vector").on("mouseover", function(event) {
-//   var targetClass = $(this).attr('class').split(' ')[2];
-//   $(this).attr('src', './img/vectors/' + targetClass + '_bw.png');
-// })
-//
-// $(".craft-vector").on("mouseout", function() {
-//   var targetClass = $(this).attr('class').split(' ')[2];
-//   $(this).attr('src', './img/vectors/' + targetClass +  '.png');
-// })
-
+     var flag = 1;
+     setInterval(function(){
+         if (flag == 1){
+             $("#features").css("background-image", "url(img/gti.png)")
+             flag = 0;
+         } else {
+             $("#features").css("background-image", "url(img/regal.jpg)")
+             flag = 1;
+         }
+     }, 7000)
 
 
 }(jQuery));
