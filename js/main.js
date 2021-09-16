@@ -166,15 +166,15 @@
 
 
   /*
-     features section background image swap
+     rentals section background image swap
      ========================================================================== */
      var flag = 1;
      setInterval(function(){
          if (flag == 1){
-             $("#features").css("background-image", "url(img/gti.png)")
+             $("#rentals").css("background-image", "url(img/gti.png)")
              flag = 0;
          } else {
-             $("#features").css("background-image", "url(img/regal.jpg)")
+             $("#rentals").css("background-image", "url(img/regal.jpg)")
              flag = 1;
          }
      }, 7000)

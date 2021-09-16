@@ -618,6 +618,10 @@ img.img-fulid.logo-img {
     color: #61D2B4;
   }
 
+  #rentals img {
+    height: 100px;
+  }
+
 }
 
 /* --    Mobile Phones      --*/
@@ -695,9 +699,9 @@ img.img-fulid.logo-img {
 
 
 /* ==========================================================================
-  6. Features Section Style
+  6. Rentals Section Style
    ========================================================================== */
-#features {
+#rentals {
   background: url(../img/gti.png) fixed no-repeat;
   background-size: cover;
   color: #fff;
@@ -705,15 +709,15 @@ img.img-fulid.logo-img {
   position: relative;
 }
 
-#features .section-title {
+#rentals .section-title {
   color: #fff;
 }
 
-#features .section-subtitle {
+#rentals .section-subtitle {
   color: #fff;
 }
 
-#features .icon {
+#rentals .icon {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -723,11 +727,11 @@ img.img-fulid.logo-img {
   z-index: 1;
 }
 
-#features .box-item {
+#rentals .box-item {
   padding: 15px 0;
 }
 
-#features .box-item .icon {
+#rentals .box-item .icon {
   border: 1px solid #61D2B4;
   text-align: center;
   float: left;
@@ -737,7 +741,7 @@ img.img-fulid.logo-img {
   transition: all 0.2s linear;
 }
 
-#features .box-item .icon i {
+#rentals .box-item .icon i {
   color: #61D2B4;
   font-size: 24px;
   line-height: 60px;
@@ -747,11 +751,11 @@ img.img-fulid.logo-img {
   transition: all 0.2s linear;
 }
 
-#features .box-item .text {
+#rentals .box-item .text {
   padding-left: 80px;
 }
 
-#features .box-item .text h4 {
+#rentals .box-item .text h4 {
   color: #61D2B4;
   font-weight: 700;
   font-size: 16px;
@@ -759,25 +763,25 @@ img.img-fulid.logo-img {
   line-height: 22px;
 }
 
-#features .box-item .text p {
+#rentals .box-item .text p {
   font-size: 14px;
   line-height: 26px;
 }
 
-#features .box-item:hover .icon {
+#rentals .box-item:hover .icon {
   background: #61D2B4;
 }
 
-#features .box-item:hover .icon i {
+#rentals .box-item:hover .icon i {
   color: #ffffff;
 }
 
-#features .show-box img {
+#rentals .show-box img {
   position: absolute;
   bottom: -120px;
 }
 
-#features .rentals {
+#rentals .rentals {
   font-size: 42px;
   padding-right: 302px;
   font-weight: 700

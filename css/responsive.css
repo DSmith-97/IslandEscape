@@ -8,7 +8,7 @@
   .item-boxes h4 {
     font-size: 18px;
   }
-  #features .show-box img {
+  #rentals .show-box img {
     display: none;
   }
   .pricing-table .pricing-details ul li {
@@ -44,10 +44,10 @@
     font-size: 18px;
     line-height: 30px;
   }
-  #features .show-box img {
+  #rentals .show-box img {
     display: none;
   }
-  #features .box-item .text h4 {
+  #rentals .box-item .text h4 {
     font-size: 14px;
   }
   .controls {
