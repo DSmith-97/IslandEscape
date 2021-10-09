@@ -1030,6 +1030,10 @@ img.img-fulid.logo-img {
   border-bottom: 1px dotted #f1f1f1;
 }
 
+#FAQS .faq-subtitle {
+  font-size: 20px;
+}
+
 .table-left {
   margin-top: 20px;
 }
