@@ -983,7 +983,7 @@ img.img-fulid.logo-img {
 }
 
 /* ==========================================================================
-	9. Pricing Table
+	9. FAQs Table
 	========================================================================== */
 .faqs-table {
   padding: 0px 0px 40px 0px;
@@ -1002,7 +1002,7 @@ img.img-fulid.logo-img {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.faqs-table .pricing-details h2 {
+.faqs-table .faqs-details h2 {
   font-size: 26px;
   font-weight: 700;
   color: #333;
@@ -1012,7 +1012,7 @@ img.img-fulid.logo-img {
   padding: 30px 0;
 }
 
-.faqs-table .pricing-details span {
+.faqs-table .faqs-details span {
   display: inline-block;
   font-size: 48px;
   font-weight: 400;
@@ -1020,11 +1020,11 @@ img.img-fulid.logo-img {
   margin-bottom: 20px;
 }
 
-.faqs-table .pricing-details ul {
+.faqs-table .faqs-details ul {
   margin-bottom: 35px;
 }
 
-.faqs-table .pricing-details ul li {
+.faqs-table .faqs-details ul li {
   padding: 10px;
   font-size: 15px;
   border-bottom: 1px dotted #f1f1f1;
