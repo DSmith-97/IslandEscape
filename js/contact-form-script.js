@@ -18,20 +18,27 @@ function submitForm(){
     var msg_subject = $("#msg_subject").val();
     var message = $("#message").val();
 
+    sessionStorage.clear();
+    const request = new XMLHttpRequest();
+    request.open("GET", "https://json.extendsclass.com/bin/e37662b5175b", true);
+    request.onreadystatechange = () => {
+    	console.log(request.responseText);
+    };
+    request.send();
 
-    $.ajax({
-        type: "POST",
-        url: "php/form-process.php",
-        data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
-        success : function(text){
-            if (text == "success"){
-                formSuccess();
-            } else {
-                formError();
-                submitMSG(false,text);
-            }
-        }
-    });
+    // $.ajax({
+    //     type: "PUT",
+    //     url: "https://json.extendsclass.com/bin/e37662b5175b",
+    //     data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
+    //     success : function(text){
+    //         if (text == "success"){
+    //             formSuccess();
+    //         } else {
+    //             formError();
+    //             submitMSG(false,text);
+    //         }
+    //     }
+    // });
 }
 
 function formSuccess(){
