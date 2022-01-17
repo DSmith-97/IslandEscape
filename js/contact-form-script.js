@@ -98,8 +98,6 @@ function saveFormData(updatedDataStore) {
 
 // add new message data
 function submitForm(data) {
-  var contactList = data.contactList;
-
   // get current form dataType
   var savedFormData = getDataStore();
 
