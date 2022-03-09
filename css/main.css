@@ -608,7 +608,7 @@ button:focus {
   background: #61D2B4;
 }
 
-/* only small tablets */
+/* regular sized tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   #nav-main li a.nav-link {
     padding-top: 18px;
@@ -631,7 +631,7 @@ img.img-fulid.logo-img {
     height: 127px;
 }
 
-
+/* Small Tablets and large screen phones */
 @media screen and (max-width: 768px) {
   .navbar-header {
     width: 100%;
@@ -667,6 +667,11 @@ img.img-fulid.logo-img {
     height: 100px;
   }
 
+  #hero-area .hero-overlay {
+    display: none;
+    background-color: orange;
+  }
+
 }
 
 /* --    Mobile Phones      --*/
@@ -680,6 +685,9 @@ img.img-fulid.logo-img {
     height: 80px;
     width: 80px;
   }
+
+  background: url(../img/hero-area1.jpg) fixed no-repeat;
+
 
   .jetski-vector{
     height: 60px;
