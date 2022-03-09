@@ -454,8 +454,8 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  background: url(../img/hero-area.jpg) fixed no-repeat;
-  background-size: cover;
+  /* background: url(../img/hero-area.jpg) fixed no-repeat; */
+  background-size: auto ;
   color: #fff;
   overflow: hidden;
   position: relative;
@@ -608,10 +608,22 @@ button:focus {
   background: #61D2B4;
 }
 
+
+/* Desktops */
+@media (min-width: 1025px) {
+    #hero-area {
+	    background: url(../img/hero-area.jpg) fixed no-repeat;
+   }
+}
+
 /* regular sized tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   #nav-main li a.nav-link {
     padding-top: 18px;
+  }
+
+  body {
+    background: url(../img/hero-area-mobile.jpg) fixed no-repeat;
   }
 }
 
@@ -672,6 +684,10 @@ img.img-fulid.logo-img {
     background-color: orange;
   }
 
+  body {
+    background: url(../img/hero-area-mobile.jpg) fixed no-repeat;
+  }
+
 }
 
 /* --    Mobile Phones      --*/
@@ -686,7 +702,9 @@ img.img-fulid.logo-img {
     width: 80px;
   }
 
-  background: url(../img/hero-area1.jpg) fixed no-repeat;
+  #page {
+    background: url(../img/hero-area-mobile.jpg1) fixed no-repeat;
+  }
 
 
   .jetski-vector{
