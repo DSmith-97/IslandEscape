@@ -610,9 +610,15 @@ button:focus {
 
 
 /* Desktops */
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
     #hero-area {
 	    background: url(../img/hero-area.jpg) fixed no-repeat;
+   }
+
+   #same_day {
+    color: yellow;
+    font-weight: bold;
+    font-size: 18px;
    }
 }
 
@@ -625,22 +631,29 @@ button:focus {
   body {
     background: url(../img/hero-area-mobile.jpg) fixed no-repeat;
   }
-}
 
-.navbar-toggler {
-  display: none;
-}
+  #same_day {
+    color: yellow;
+    font-weight: bold;
+    font-size: 18px;
+  }
 
-.mobile-menu {
-  display: none;
-}
+  .navbar-toggler {
+    display: none;
+  }
 
-.slicknav_menu {
-  display: none;
-}
+  .mobile-menu {
+    display: none;
+  }
 
-img.img-fulid.logo-img {
-    height: 127px;
+  .slicknav_menu {
+    display: none;
+  }
+
+  img.img-fulid.logo-img {
+      height: 127px;
+  }
+
 }
 
 /* Small Tablets and large screen phones */
@@ -688,6 +701,32 @@ img.img-fulid.logo-img {
     background: url(../img/hero-area-mobile.jpg) fixed no-repeat;
   }
 
+  #same_day {
+    /* color: green; */
+    font-weight: bold;
+    /* border: 1px solid black; */
+    /* border-radius: 40px; */
+    /* background-color: #e4dede; */
+    /* opacity: 1.4; */
+    color: yellow;
+    font-weight: bold;
+    font-size: 18px;
+    width: 83%;
+    margin-left: 8%;
+  }
+
+  #same_day_overlay {
+    /* opacity: 0.6; */
+    background: blue;
+    margin-top: -67px;
+    height: 73px;
+    border-radius: 40px;
+    width: 81%;
+    align-content: center;
+    margin-left: 9%;
+
+  }
+
 }
 
 /* --    Mobile Phones      --*/
@@ -709,6 +748,12 @@ img.img-fulid.logo-img {
 
   .jetski-vector{
     height: 60px;
+  }
+
+  #same_day {
+    color: yellow;
+    font-weight: bold;
+    font-size: 18px;
   }
 }
 
