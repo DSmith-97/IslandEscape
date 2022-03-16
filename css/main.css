@@ -454,8 +454,8 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  /* background: url(../img/hero-area.jpg) fixed no-repeat; */
-  background-size: auto ;
+  background: url(../img/hero-area.jpg) fixed no-repeat;
+  background-size: cover;
   color: #fff;
   overflow: hidden;
   position: relative;
@@ -608,55 +608,30 @@ button:focus {
   background: #61D2B4;
 }
 
-
-/* Desktops */
-@media (min-width: 1024px) {
-    #hero-area {
-	    background: url(../img/hero-area.jpg) fixed no-repeat;
-   }
-
-   #same_day {
-    color: yellow;
-    font-weight: bold;
-    font-size: 18px;
-   }
-}
-
-/* regular sized tablets */
+/* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   #nav-main li a.nav-link {
     padding-top: 18px;
   }
-
-  body {
-    background: url(../img/hero-area-mobile.jpg) fixed no-repeat;
-  }
-
-  #same_day {
-    color: yellow;
-    font-weight: bold;
-    font-size: 18px;
-  }
-
-  .navbar-toggler {
-    display: none;
-  }
-
-  .mobile-menu {
-    display: none;
-  }
-
-  .slicknav_menu {
-    display: none;
-  }
-
-  img.img-fulid.logo-img {
-      height: 127px;
-  }
-
 }
 
-/* Small Tablets and large screen phones */
+.navbar-toggler {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.slicknav_menu {
+  display: none;
+}
+
+img.img-fulid.logo-img {
+    height: 127px;
+}
+
+
 @media screen and (max-width: 768px) {
   .navbar-header {
     width: 100%;
@@ -692,41 +667,6 @@ button:focus {
     height: 100px;
   }
 
-  #hero-area .hero-overlay {
-    display: none;
-    background-color: orange;
-  }
-
-  body {
-    background: url(../img/hero-area-mobile.jpg) fixed no-repeat;
-  }
-
-  #same_day {
-    /* color: green; */
-    font-weight: bold;
-    /* border: 1px solid black; */
-    /* border-radius: 40px; */
-    /* background-color: #e4dede; */
-    /* opacity: 1.4; */
-    color: yellow;
-    font-weight: bold;
-    font-size: 18px;
-    width: 83%;
-    margin-left: 8%;
-  }
-
-  #same_day_overlay {
-    /* opacity: 0.6; */
-    background: blue;
-    margin-top: -74px;
-    height: 80px;
-    border-radius: 40px;
-    width: 81%;
-    align-content: center;
-    margin-left: 9%;
-
-  }
-
 }
 
 /* --    Mobile Phones      --*/
@@ -741,19 +681,8 @@ button:focus {
     width: 80px;
   }
 
-  #page {
-    background: url(../img/hero-area-mobile2.png) fixed no-repeat;
-  }
-
-
   .jetski-vector{
     height: 60px;
-  }
-
-  #same_day {
-    color: yellow;
-    font-weight: bold;
-    font-size: 18px;
   }
 }
 
