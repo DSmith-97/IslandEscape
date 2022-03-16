@@ -608,7 +608,12 @@ button:focus {
   background: #61D2B4;
 }
 
-/* only small tablets */
+#same_day {
+  color: yellow;
+  font-weight: bold;
+}
+
+/* Regular Sized tablets: iPad Air, Surface Pro 7,   */
 @media (min-width: 768px) and (max-width: 991px) {
   #nav-main li a.nav-link {
     padding-top: 18px;
@@ -631,7 +636,7 @@ img.img-fulid.logo-img {
     height: 127px;
 }
 
-
+/* -- Mini Tablets: iPad Mini, Surface Duo --*/
 @media screen and (max-width: 768px) {
   .navbar-header {
     width: 100%;
@@ -667,10 +672,16 @@ img.img-fulid.logo-img {
     height: 100px;
   }
 
+  #same_day {
+    color: green;
+  }
+
+
+
 }
 
-/* --    Mobile Phones      --*/
-@media only screen and (max-width: 400px) {
+/* --    Mobile Phones: iPhone XR, SE, 12 Pro, Pixel 5, Samsung Galaxy 8,   --*/
+@media only screen and (max-width: 415px) {
   #hero-area .hero-overlay {
     display: none;
     background-color: orange;
@@ -683,6 +694,18 @@ img.img-fulid.logo-img {
 
   .jetski-vector{
     height: 60px;
+  }
+
+  #same_day {
+    color: yellow;
+  }
+
+  #page {
+    background: url(../img/hero-area-mobile.jpg) fixed no-repeat;
+  }
+
+  .overlay {
+    display: none;
   }
 }
 
