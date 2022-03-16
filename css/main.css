@@ -602,6 +602,7 @@ button:focus {
 
 .slicknav_btn {
   border-color: #5f0afa;
+  background-color: teal;
 }
 
 .slicknav_menu .slicknav_icon-bar {
