@@ -676,7 +676,9 @@ img.img-fulid.logo-img {
     color: green;
   }
 
-
+  #page {
+    background: url(../img/hero-area-mobile.jpg) fixed no-repeat;
+  }
 
 }
 
