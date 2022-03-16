@@ -698,12 +698,12 @@ img.img-fulid.logo-img {
   }
 
   #same_day {
-    color: pink;
+    color: blue;
   }
 
-  body {
+  /* body {
     background: url(../img/hero-area-mobile.jpg) fixed no-repeat;
-  }
+  } */
 
   .section {
     padding-top: 115px;
