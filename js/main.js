@@ -11,6 +11,7 @@
         }
     });
 
+
     /*
    One Page Navigation & wow js
    ========================================================================== */
@@ -198,6 +199,9 @@
        });
      }
 
-
+     // Close mobile menu on user selection
+     $(".slicknav_nav li").click(function(){
+       $(".slicknav_icon").click();
+     })
 
 }(jQuery));
