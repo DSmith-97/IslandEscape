@@ -614,6 +614,22 @@ button:focus {
   color: yellow;
 }
 
+/* Holiday Blink Text */
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
 /* Regular Sized tablets: iPad Air, Surface Pro 7,   */
 @media (min-width: 768px) and (max-width: 991px) {
   #nav-main li a.nav-link {
